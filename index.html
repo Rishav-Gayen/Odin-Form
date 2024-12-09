@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/style.css">
+</head>
+<body>
+    <section class="sidebar">
+        <div class="sidebar__logo">
+            <img src="Assets/odin-lined.png" alt="Odin Project Logo" class="sidebar__logo_img">
+            <span class="sidebar__logo_text">Odin</span>
+        </div>
+    </section>
+    <section class="signup">
+        <p class="signup__title">This is not a real online service, you know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+        <p class="signup__secondary">You know you <em>want</em> to.</p>
+        <form class="signup__form one-edge-shadow" id="user-form">
+            <h2 class="signup__form_heading">Let's do this!</h2>
+            <div class="signup__form_container">
+                <div class="signup__form_input-container firstname">
+                    <label for="firstname">first name</label>
+                    <input type="text" name="firstname" id="firstname" placeholder="Thor" minlength = "8" maxlenght="24" required>
+                </div>
+                <div class="signup__form_input-container lastname">
+                    <label for="lastname">last name</label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Odinson" required>
+                </div>
+                <div class="signup__form_input-container email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
+                </div>
+                <div class="signup__form_input-container phone">
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone" placeholder="+1 2354-4753" required>
+                </div>
+                <div class="signup__form_input-container password ">
+                    <label for="phone">password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="signup__form_input-container confirm ">
+                    <label for="confirm">Confirm Password</label>
+                    <input type="password" name="confirm" id="confirm" required>
+                </div>
+            </div>
+        </form>
+            <div class="signup__create">
+                <button type="submit" form="user-form" class="signup__create_button">Create Account</button>
+            </div>
+            
+            <p class="signup__login">Already have an account ? <a href="#" class="login">Log In</a></p>
+    </section>
+</body>
+</html>
