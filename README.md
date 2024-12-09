@@ -6,3 +6,6 @@ This repository is home to the Form Project which is a part of the Odin Project'
 
 HTML and CSS
 
+# Link 
+
+https://rishav-gayen.github.io/Odin-Form/
